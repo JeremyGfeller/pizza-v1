@@ -1,8 +1,7 @@
-"use client";
-
 import { LoginForm } from "@/components/login-form";
 import Link from "next/link";
 import { Pizza } from "lucide-react";
+import { Suspense } from "react";
 
 export default function LoginPage() {
   return (
@@ -23,7 +22,9 @@ export default function LoginPage() {
           <p className="text-muted-foreground mb-8 text-center">
             Sign in to your account to continue
           </p>
-          <LoginForm />
+          <Suspense>
+            <LoginForm />
+          </Suspense>
         </div>
       </main>
     </div>
