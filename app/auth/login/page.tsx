@@ -1,3 +1,5 @@
+"use client";
+
 import { LoginForm } from "@/components/login-form";
 import Link from "next/link";
 import { Pizza } from "lucide-react";
