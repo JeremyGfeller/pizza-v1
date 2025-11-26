@@ -1,13 +1,6 @@
-"use client";
-
 import { LoginForm } from "@/components/login-form";
 import Link from "next/link";
 import { Pizza } from "lucide-react";
-
-export const metadata = {
-  title: "Sign In | PizzaShop Suisse",
-  description: "Sign in to your account",
-};
 
 export default function LoginPage() {
   return (
